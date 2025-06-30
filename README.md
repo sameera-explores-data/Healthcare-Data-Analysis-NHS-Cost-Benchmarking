@@ -68,7 +68,7 @@ Healthcare providers should use gender-specific trends to improve diagnosis accu
 - PowerBI_Dashboard.png #Screenshot of the Power BI Dashboard
 - SQL_Queries.SQL #SQL file
 - Datasets
-- Employee_Analysis_Project_Report.pdf #Detailed written report with insights
+- Healthcare_Analysis_Project_Report.pdf #Detailed written report with insights
 - README.md #Project documentation
 
 ## 🚀 How to Use
