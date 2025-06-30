@@ -1,0 +1,501 @@
+Patient_ID,Visit_Date,Age,Gender,Region,Diagnosis_Code,Diagnosis_Description,Treatment_Code,Treatment_Description,Cost (£),Outcome,NHS_Guideline_Adherence
+1001,1/1/2024,69,Female,Birmingham,J45,Back Pain,E5,Follow-up,237.29,Improved,No
+1002,1/2/2024,32,Non Binary,Leeds,F32,Hypertension,E5,Surgery,261.22,Improved,Yes
+1003,1/3/2024,89,Non Binary,Glasgow,F32,Hypertension,B2,Follow-up,330.22,Stable,Yes
+1004,1/4/2024,78,Male,Birmingham,M54,Asthma,D4,Diagnostic Imaging,264.22,Stable,No
+1005,1/5/2024,38,Male,Birmingham,E11,Depression,A1,Diagnostic Imaging,314.39,Improved,Yes
+1006,1/6/2024,41,Transgender,London,J45,Type 2 Diabetes,A1,Follow-up,261.35,Worsened,Yes
+1007,1/7/2024,20,Male,Bristol,M54,Depression,A1,Medication,241.57,Stable,Yes
+1008,1/8/2024,39,Transgender,Manchester,J45,Back Pain,B2,Medication,298.09,Improved,Yes
+1009,1/9/2024,70,Female,Manchester,E11,Type 2 Diabetes,B2,Medication,295.25,Worsened,Yes
+1010,1/10/2024,19,Male,Glasgow,F32,Asthma,C3,Follow-up,237.28,Improved,Yes
+1011,1/11/2024,47,Transgender,Manchester,I10,Asthma,A1,Medication,193.81,Re-admitted,Yes
+1012,1/12/2024,55,Female,Leeds,F32,Type 2 Diabetes,D4,Surgery,275.63,Stable,No
+1013,1/13/2024,19,Transgender,Manchester,M54,Hypertension,D4,Diagnostic Imaging,255.88,Improved,Yes
+1014,1/14/2024,81,Non Binary,Glasgow,I10,Type 2 Diabetes,A1,Surgery,208.38,Stable,No
+1015,1/15/2024,77,Transgender,Manchester,M54,Back Pain,A1,Medication,186.82,Stable,Yes
+1016,1/16/2024,38,Transgender,Leeds,E11,Hypertension,A1,Surgery,280.79,Stable,Yes
+1017,1/17/2024,50,Transgender,London,I10,Asthma,B2,Medication,291.26,Re-admitted,Yes
+1018,1/18/2024,75,Transgender,Glasgow,M54,Type 2 Diabetes,B2,Follow-up,223,Stable,Yes
+1019,1/19/2024,39,Female,London,E11,Depression,B2,Surgery,206.5,Stable,Yes
+1020,1/20/2024,66,Female,London,F32,Depression,E5,Follow-up,187.73,Worsened,No
+1021,1/21/2024,76,Male,London,E11,Back Pain,D4,Follow-up,278.67,Stable,Yes
+1022,1/22/2024,59,Non Binary,Birmingham,J45,Depression,D4,Therapy,189.7,Improved,Yes
+1023,1/23/2024,77,Non Binary,Bristol,E11,Type 2 Diabetes,C3,Medication,418.09,Worsened,Yes
+1024,1/24/2024,32,Female,Birmingham,E11,Type 2 Diabetes,B2,Diagnostic Imaging,219.23,Improved,Yes
+1025,1/25/2024,79,Female,Bristol,J45,Depression,E5,Medication,68.11,Stable,Yes
+1026,1/26/2024,79,Male,London,M54,Type 2 Diabetes,E5,Diagnostic Imaging,247.74,Worsened,Yes
+1027,1/27/2024,64,Non Binary,Glasgow,M54,Back Pain,D4,Medication,244.52,Stable,Yes
+1028,1/28/2024,79,Male,Bristol,E11,Hypertension,B2,Follow-up,333.38,Stable,Yes
+1029,1/29/2024,68,Non Binary,Leeds,J45,Back Pain,C3,Surgery,271.61,Stable,Yes
+1030,1/30/2024,72,Female,Leeds,J45,Back Pain,B2,Surgery,187.46,Improved,Yes
+1031,1/31/2024,81,Transgender,Manchester,F32,Type 2 Diabetes,A1,Therapy,228.52,Worsened,Yes
+1032,2/1/2024,20,Non Binary,Bristol,M54,Hypertension,B2,Diagnostic Imaging,274.56,Improved,No
+1033,2/2/2024,68,Non Binary,Glasgow,I10,Type 2 Diabetes,A1,Diagnostic Imaging,87.65,Improved,Yes
+1034,2/3/2024,24,Transgender,Birmingham,M54,Asthma,A1,Diagnostic Imaging,350.4,Improved,Yes
+1035,2/4/2024,38,Transgender,London,M54,Type 2 Diabetes,C3,Follow-up,187.66,Stable,Yes
+1036,2/5/2024,56,Female,Manchester,F32,Type 2 Diabetes,D4,Diagnostic Imaging,356.28,Stable,Yes
+1037,2/6/2024,35,Male,Leeds,I10,Type 2 Diabetes,B2,Surgery,279.43,Worsened,No
+1038,2/7/2024,21,Transgender,Birmingham,F32,Hypertension,A1,Follow-up,297.22,Improved,Yes
+1039,2/8/2024,77,Female,Birmingham,I10,Type 2 Diabetes,B2,Medication,336.21,Improved,Yes
+1040,2/9/2024,31,Transgender,London,E11,Hypertension,D4,Diagnostic Imaging,292.98,Improved,Yes
+1041,2/10/2024,26,Transgender,Bristol,I10,Depression,D4,Diagnostic Imaging,300.47,Improved,Yes
+1042,2/11/2024,70,Transgender,Leeds,F32,Asthma,E5,Medication,237.67,Stable,Yes
+1043,2/12/2024,19,Transgender,Glasgow,M54,Hypertension,D4,Diagnostic Imaging,277.91,Improved,Yes
+1044,2/13/2024,77,Transgender,Birmingham,I10,Depression,C3,Medication,205.94,Improved,Yes
+1045,2/14/2024,88,Female,London,I10,Hypertension,A1,Follow-up,224.24,Improved,Yes
+1046,2/15/2024,61,Male,Glasgow,J45,Hypertension,E5,Surgery,397.35,Improved,Yes
+1047,2/16/2024,25,Transgender,Bristol,M54,Asthma,C3,Medication,189.39,Improved,No
+1048,2/17/2024,64,Female,Leeds,E11,Back Pain,B2,Therapy,261.57,Improved,Yes
+1049,2/18/2024,52,Female,Bristol,F32,Back Pain,A1,Medication,258.51,Stable,Yes
+1050,2/19/2024,53,Female,Birmingham,E11,Hypertension,D4,Diagnostic Imaging,226.69,Worsened,Yes
+1051,2/20/2024,67,Non Binary,Glasgow,M54,Type 2 Diabetes,A1,Follow-up,288.58,Stable,No
+1052,2/21/2024,21,Non Binary,Glasgow,I10,Depression,B2,Follow-up,294.23,Re-admitted,Yes
+1053,2/22/2024,19,Transgender,Glasgow,I10,Type 2 Diabetes,E5,Medication,180.56,Improved,No
+1054,2/23/2024,23,Female,Birmingham,M54,Type 2 Diabetes,E5,Surgery,257.6,Stable,Yes
+1055,2/24/2024,71,Non Binary,Birmingham,I10,Hypertension,E5,Therapy,168.82,Re-admitted,Yes
+1056,2/25/2024,21,Transgender,Bristol,I10,Hypertension,D4,Follow-up,309.14,Improved,Yes
+1057,2/26/2024,71,Female,Manchester,I10,Hypertension,C3,Diagnostic Imaging,263.24,Worsened,Yes
+1058,2/27/2024,80,Male,Bristol,F32,Hypertension,C3,Diagnostic Imaging,256.17,Improved,Yes
+1059,2/28/2024,35,Female,Leeds,F32,Back Pain,A1,Surgery,299.43,Improved,Yes
+1060,2/29/2024,61,Non Binary,London,J45,Hypertension,D4,Follow-up,229.34,Improved,Yes
+1061,3/1/2024,51,Male,Glasgow,E11,Back Pain,E5,Medication,318.55,Stable,Yes
+1062,3/2/2024,79,Male,Manchester,M54,Back Pain,E5,Diagnostic Imaging,178.87,Stable,Yes
+1063,3/3/2024,31,Transgender,London,M54,Hypertension,B2,Surgery,355.89,Stable,Yes
+1064,3/4/2024,65,Male,Manchester,M54,Asthma,B2,Follow-up,208.68,Improved,Yes
+1065,3/5/2024,32,Male,Bristol,J45,Depression,E5,Follow-up,122.79,Improved,Yes
+1066,3/6/2024,89,Transgender,Birmingham,F32,Type 2 Diabetes,E5,Follow-up,225.36,Improved,Yes
+1067,3/7/2024,79,Female,Glasgow,J45,Back Pain,D4,Follow-up,216.85,Improved,Yes
+1068,3/8/2024,57,Non Binary,Bristol,M54,Depression,C3,Follow-up,224.79,Worsened,No
+1069,3/9/2024,70,Male,London,E11,Asthma,B2,Diagnostic Imaging,267.37,Improved,Yes
+1070,3/10/2024,41,Non Binary,London,I10,Type 2 Diabetes,C3,Surgery,332.34,Worsened,Yes
+1071,3/11/2024,43,Male,London,F32,Type 2 Diabetes,D4,Follow-up,235.62,Worsened,Yes
+1072,3/12/2024,77,Non Binary,London,F32,Back Pain,E5,Therapy,198.13,Improved,No
+1073,3/13/2024,58,Non Binary,London,J45,Hypertension,C3,Therapy,165.51,Stable,Yes
+1074,3/14/2024,46,Transgender,Manchester,F32,Asthma,E5,Surgery,214.89,Improved,Yes
+1075,3/15/2024,32,Male,Bristol,M54,Back Pain,E5,Medication,108.41,Improved,No
+1076,3/16/2024,62,Male,Glasgow,M54,Asthma,A1,Medication,195.62,Improved,Yes
+1077,3/17/2024,82,Male,Birmingham,J45,Hypertension,C3,Medication,343.3,Stable,Yes
+1078,3/18/2024,88,Transgender,Birmingham,M54,Hypertension,C3,Therapy,188.25,Improved,Yes
+1079,3/19/2024,26,Male,Bristol,E11,Back Pain,E5,Medication,297.15,Stable,Yes
+1080,3/20/2024,18,Transgender,Bristol,J45,Hypertension,D4,Diagnostic Imaging,158.01,Stable,Yes
+1081,3/21/2024,25,Male,Birmingham,E11,Depression,A1,Follow-up,382.83,Improved,Yes
+1082,3/22/2024,80,Female,Birmingham,I10,Type 2 Diabetes,E5,Therapy,387.82,Stable,Yes
+1083,3/23/2024,28,Male,Manchester,E11,Back Pain,B2,Surgery,294.33,Stable,No
+1084,3/24/2024,25,Male,Leeds,I10,Asthma,B2,Surgery,399.34,Improved,Yes
+1085,3/25/2024,52,Female,Glasgow,I10,Depression,A1,Follow-up,276.68,Improved,Yes
+1086,3/26/2024,52,Female,London,E11,Back Pain,D4,Therapy,307.64,Stable,Yes
+1087,3/27/2024,50,Transgender,Leeds,J45,Hypertension,E5,Medication,344.65,Improved,Yes
+1088,3/28/2024,22,Female,Bristol,M54,Hypertension,C3,Medication,263.48,Stable,Yes
+1089,3/29/2024,58,Male,Birmingham,M54,Hypertension,A1,Diagnostic Imaging,133.57,Improved,Yes
+1090,3/30/2024,45,Female,Leeds,I10,Hypertension,D4,Diagnostic Imaging,309.17,Improved,Yes
+1091,3/31/2024,24,Non Binary,Glasgow,I10,Asthma,C3,Medication,214.61,Improved,Yes
+1092,4/1/2024,89,Female,Bristol,J45,Depression,B2,Surgery,220.19,Improved,Yes
+1093,4/2/2024,29,Transgender,London,F32,Type 2 Diabetes,B2,Surgery,272.34,Stable,Yes
+1094,4/3/2024,51,Transgender,London,E11,Asthma,C3,Diagnostic Imaging,292.47,Improved,Yes
+1095,4/4/2024,50,Non Binary,Glasgow,I10,Asthma,A1,Follow-up,261.26,Stable,Yes
+1096,4/5/2024,65,Transgender,Glasgow,M54,Type 2 Diabetes,B2,Medication,297.68,Worsened,Yes
+1097,4/6/2024,40,Non Binary,Birmingham,J45,Type 2 Diabetes,E5,Diagnostic Imaging,196.99,Stable,No
+1098,4/7/2024,79,Transgender,London,E11,Hypertension,C3,Diagnostic Imaging,246.8,Stable,Yes
+1099,4/8/2024,54,Transgender,Bristol,J45,Asthma,C3,Medication,313.68,Improved,Yes
+1100,4/9/2024,61,Female,Leeds,E11,Back Pain,B2,Medication,382.96,Improved,Yes
+1101,4/10/2024,52,Male,Bristol,E11,Type 2 Diabetes,A1,Surgery,409.48,Stable,Yes
+1102,4/11/2024,82,Non Binary,Manchester,I10,Type 2 Diabetes,E5,Follow-up,282.47,Improved,Yes
+1103,4/12/2024,64,Non Binary,Manchester,J45,Depression,A1,Follow-up,313,Stable,No
+1104,4/13/2024,20,Female,Glasgow,J45,Back Pain,D4,Medication,398.62,Improved,Yes
+1105,4/14/2024,18,Male,Birmingham,M54,Back Pain,D4,Therapy,199.69,Stable,Yes
+1106,4/15/2024,22,Male,Manchester,M54,Type 2 Diabetes,B2,Diagnostic Imaging,297.23,Worsened,Yes
+1107,4/16/2024,31,Non Binary,London,I10,Hypertension,B2,Diagnostic Imaging,307.63,Worsened,Yes
+1108,4/17/2024,44,Transgender,Bristol,I10,Depression,B2,Medication,358.59,Stable,Yes
+1109,4/18/2024,26,Transgender,Bristol,F32,Back Pain,D4,Therapy,164.71,Stable,Yes
+1110,4/19/2024,32,Female,Glasgow,M54,Type 2 Diabetes,A1,Surgery,179.54,Stable,Yes
+1111,4/20/2024,59,Transgender,Leeds,E11,Back Pain,A1,Medication,251.6,Stable,Yes
+1112,4/21/2024,68,Non Binary,Glasgow,J45,Depression,B2,Medication,278.33,Improved,Yes
+1113,4/22/2024,80,Non Binary,Leeds,I10,Depression,E5,Diagnostic Imaging,334.21,Improved,Yes
+1114,4/23/2024,69,Male,Glasgow,J45,Asthma,A1,Medication,288.82,Improved,No
+1115,4/24/2024,21,Transgender,Glasgow,J45,Type 2 Diabetes,D4,Medication,238.64,Re-admitted,Yes
+1116,4/25/2024,40,Transgender,Glasgow,F32,Depression,C3,Medication,281.23,Improved,Yes
+1117,4/26/2024,32,Male,Leeds,M54,Asthma,C3,Diagnostic Imaging,272.58,Stable,Yes
+1118,4/27/2024,60,Female,Leeds,I10,Asthma,C3,Surgery,380.88,Stable,No
+1119,4/28/2024,46,Non Binary,Glasgow,J45,Back Pain,E5,Surgery,262.42,Stable,No
+1120,4/29/2024,53,Female,Manchester,I10,Back Pain,B2,Medication,221.27,Stable,Yes
+1121,4/30/2024,30,Female,Birmingham,E11,Asthma,D4,Diagnostic Imaging,283.72,Improved,Yes
+1122,5/1/2024,49,Male,Birmingham,F32,Back Pain,E5,Surgery,264.89,Stable,Yes
+1123,5/2/2024,88,Non Binary,Birmingham,E11,Depression,D4,Surgery,132.18,Worsened,Yes
+1124,5/3/2024,76,Female,Leeds,I10,Hypertension,D4,Surgery,248.83,Improved,Yes
+1125,5/4/2024,45,Female,Leeds,I10,Depression,B2,Diagnostic Imaging,242.44,Improved,Yes
+1126,5/5/2024,83,Non Binary,Manchester,M54,Asthma,C3,Diagnostic Imaging,209.21,Stable,Yes
+1127,5/6/2024,59,Non Binary,Birmingham,J45,Asthma,B2,Medication,327.67,Worsened,Yes
+1128,5/7/2024,62,Male,Birmingham,J45,Depression,E5,Follow-up,191.07,Improved,Yes
+1129,5/8/2024,79,Transgender,Glasgow,E11,Back Pain,E5,Surgery,284.17,Stable,No
+1130,5/9/2024,74,Female,Leeds,F32,Back Pain,E5,Follow-up,238.91,Worsened,Yes
+1131,5/10/2024,23,Male,Birmingham,J45,Asthma,B2,Diagnostic Imaging,258.08,Improved,Yes
+1132,5/11/2024,45,Female,Bristol,M54,Type 2 Diabetes,D4,Diagnostic Imaging,280.88,Re-admitted,Yes
+1133,5/12/2024,45,Female,Manchester,E11,Back Pain,D4,Diagnostic Imaging,151.93,Stable,Yes
+1134,5/13/2024,61,Female,Bristol,E11,Depression,A1,Follow-up,264.37,Stable,Yes
+1135,5/14/2024,47,Transgender,Bristol,M54,Back Pain,E5,Diagnostic Imaging,421.67,Stable,Yes
+1136,5/15/2024,79,Non Binary,Manchester,F32,Depression,D4,Medication,133.24,Improved,No
+1137,5/16/2024,79,Female,Bristol,M54,Asthma,A1,Diagnostic Imaging,245.68,Improved,Yes
+1138,5/17/2024,18,Non Binary,Birmingham,F32,Back Pain,D4,Therapy,334.24,Improved,Yes
+1139,5/18/2024,44,Male,Leeds,M54,Depression,E5,Follow-up,272.62,Improved,Yes
+1140,5/19/2024,79,Female,Manchester,M54,Asthma,C3,Therapy,301.6,Improved,Yes
+1141,5/20/2024,20,Female,Glasgow,I10,Type 2 Diabetes,E5,Diagnostic Imaging,71.83,Worsened,Yes
+1142,5/21/2024,87,Female,Bristol,E11,Depression,B2,Medication,294.87,Worsened,Yes
+1143,5/22/2024,89,Male,Manchester,M54,Type 2 Diabetes,D4,Surgery,192.87,Stable,Yes
+1144,5/23/2024,44,Male,London,M54,Type 2 Diabetes,D4,Diagnostic Imaging,273.24,Worsened,Yes
+1145,5/24/2024,26,Transgender,London,J45,Hypertension,B2,Medication,247.79,Stable,Yes
+1146,5/25/2024,79,Transgender,Leeds,E11,Back Pain,B2,Follow-up,420.87,Improved,Yes
+1147,5/26/2024,54,Female,Birmingham,J45,Depression,C3,Therapy,291,Improved,Yes
+1148,5/27/2024,68,Non Binary,Leeds,E11,Type 2 Diabetes,D4,Therapy,241.55,Stable,Yes
+1149,5/28/2024,61,Male,Leeds,J45,Hypertension,D4,Therapy,136.77,Stable,Yes
+1150,5/29/2024,41,Transgender,Leeds,M54,Asthma,C3,Follow-up,259.09,Improved,Yes
+1151,5/30/2024,76,Male,Leeds,M54,Depression,A1,Medication,311.74,Stable,No
+1152,5/31/2024,49,Transgender,Glasgow,I10,Type 2 Diabetes,C3,Follow-up,243.96,Improved,Yes
+1153,6/1/2024,69,Female,Glasgow,J45,Back Pain,E5,Therapy,212.08,Stable,Yes
+1154,6/2/2024,79,Transgender,Manchester,F32,Hypertension,D4,Diagnostic Imaging,207.06,Worsened,No
+1155,6/3/2024,75,Transgender,London,I10,Type 2 Diabetes,B2,Surgery,290.14,Stable,Yes
+1156,6/4/2024,69,Transgender,Leeds,J45,Back Pain,E5,Follow-up,306.95,Re-admitted,Yes
+1157,6/5/2024,29,Non Binary,Manchester,J45,Type 2 Diabetes,D4,Follow-up,352.09,Worsened,Yes
+1158,6/6/2024,56,Transgender,London,I10,Depression,C3,Medication,175.38,Worsened,Yes
+1159,6/7/2024,19,Non Binary,Bristol,M54,Depression,E5,Medication,289.45,Worsened,Yes
+1160,6/8/2024,20,Transgender,Birmingham,J45,Depression,D4,Follow-up,240.87,Worsened,Yes
+1161,6/9/2024,73,Male,Glasgow,M54,Hypertension,A1,Therapy,243.08,Stable,Yes
+1162,6/10/2024,76,Transgender,Bristol,I10,Depression,A1,Surgery,280.14,Improved,Yes
+1163,6/11/2024,19,Female,London,M54,Back Pain,B2,Medication,280.57,Improved,No
+1164,6/12/2024,19,Non Binary,Bristol,E11,Type 2 Diabetes,D4,Therapy,289.66,Stable,Yes
+1165,6/13/2024,71,Non Binary,Birmingham,F32,Asthma,A1,Diagnostic Imaging,170.69,Improved,No
+1166,6/14/2024,18,Male,London,J45,Back Pain,C3,Medication,193.76,Improved,Yes
+1167,6/15/2024,36,Female,Bristol,F32,Back Pain,D4,Therapy,361.44,Re-admitted,Yes
+1168,6/16/2024,19,Female,Glasgow,M54,Depression,C3,Therapy,233.46,Worsened,Yes
+1169,6/17/2024,70,Non Binary,Glasgow,J45,Hypertension,C3,Surgery,272.95,Worsened,Yes
+1170,6/18/2024,61,Non Binary,Manchester,M54,Type 2 Diabetes,A1,Surgery,329.1,Improved,Yes
+1171,6/19/2024,49,Male,Bristol,E11,Hypertension,D4,Diagnostic Imaging,284.76,Improved,Yes
+1172,6/20/2024,87,Female,Leeds,I10,Type 2 Diabetes,E5,Therapy,290.99,Improved,Yes
+1173,6/21/2024,49,Non Binary,Bristol,J45,Type 2 Diabetes,A1,Therapy,317.09,Improved,No
+1174,6/22/2024,85,Non Binary,London,E11,Hypertension,A1,Surgery,91.25,Improved,Yes
+1175,6/23/2024,72,Female,London,E11,Back Pain,D4,Medication,213.25,Improved,Yes
+1176,6/24/2024,73,Transgender,Bristol,J45,Type 2 Diabetes,D4,Medication,285.15,Worsened,Yes
+1177,6/25/2024,34,Female,Birmingham,M54,Hypertension,C3,Follow-up,354.07,Stable,Yes
+1178,6/26/2024,55,Male,Glasgow,E11,Type 2 Diabetes,D4,Surgery,254.96,Improved,Yes
+1179,6/27/2024,41,Male,London,F32,Asthma,C3,Follow-up,186.65,Improved,Yes
+1180,6/28/2024,86,Non Binary,Glasgow,E11,Back Pain,A1,Surgery,188.64,Stable,Yes
+1181,6/29/2024,87,Female,London,M54,Depression,B2,Diagnostic Imaging,316.29,Improved,No
+1182,6/30/2024,28,Transgender,Manchester,M54,Type 2 Diabetes,E5,Therapy,233.67,Worsened,Yes
+1183,7/1/2024,33,Transgender,Leeds,F32,Asthma,A1,Diagnostic Imaging,249.46,Improved,Yes
+1184,7/2/2024,76,Male,London,E11,Depression,D4,Surgery,296.13,Improved,Yes
+1185,7/3/2024,87,Female,Glasgow,M54,Depression,E5,Therapy,32.39,Improved,Yes
+1186,7/4/2024,20,Non Binary,Manchester,J45,Type 2 Diabetes,B2,Medication,400.03,Improved,Yes
+1187,7/5/2024,37,Transgender,London,I10,Hypertension,B2,Medication,195.17,Stable,Yes
+1188,7/6/2024,76,Female,Birmingham,I10,Type 2 Diabetes,C3,Follow-up,268.15,Stable,No
+1189,7/7/2024,53,Female,Leeds,I10,Asthma,E5,Surgery,122.15,Stable,Yes
+1190,7/8/2024,36,Male,London,E11,Depression,C3,Surgery,218.31,Improved,Yes
+1191,7/9/2024,84,Male,Manchester,F32,Type 2 Diabetes,A1,Medication,343.35,Stable,No
+1192,7/10/2024,36,Male,Birmingham,M54,Hypertension,E5,Diagnostic Imaging,106.29,Stable,Yes
+1193,7/11/2024,37,Non Binary,Bristol,J45,Type 2 Diabetes,A1,Therapy,334.47,Worsened,Yes
+1194,7/12/2024,88,Female,Manchester,J45,Back Pain,C3,Diagnostic Imaging,229.47,Improved,Yes
+1195,7/13/2024,69,Female,Manchester,E11,Hypertension,E5,Diagnostic Imaging,286.54,Improved,Yes
+1196,7/14/2024,50,Transgender,Birmingham,I10,Asthma,C3,Medication,299.31,Stable,Yes
+1197,7/15/2024,57,Non Binary,Manchester,E11,Depression,E5,Medication,283.11,Stable,Yes
+1198,7/16/2024,56,Non Binary,Birmingham,F32,Type 2 Diabetes,C3,Medication,185.13,Improved,Yes
+1199,7/17/2024,18,Female,London,F32,Hypertension,B2,Follow-up,222.66,Improved,Yes
+1200,7/18/2024,28,Male,Birmingham,M54,Back Pain,C3,Diagnostic Imaging,140.38,Improved,Yes
+1201,7/19/2024,74,Non Binary,Birmingham,M54,Hypertension,B2,Surgery,286.88,Worsened,Yes
+1202,7/20/2024,67,Transgender,Leeds,F32,Back Pain,C3,Therapy,377.65,Improved,Yes
+1203,7/21/2024,40,Female,Birmingham,F32,Asthma,E5,Follow-up,113.17,Worsened,Yes
+1204,7/22/2024,48,Female,Birmingham,F32,Depression,E5,Surgery,192.88,Stable,Yes
+1205,7/23/2024,59,Female,Bristol,E11,Asthma,E5,Diagnostic Imaging,236.37,Worsened,Yes
+1206,7/24/2024,24,Female,London,F32,Type 2 Diabetes,D4,Medication,263,Worsened,Yes
+1207,7/25/2024,33,Transgender,Leeds,J45,Hypertension,A1,Diagnostic Imaging,315.94,Improved,No
+1208,7/26/2024,77,Female,Bristol,I10,Back Pain,E5,Therapy,238.59,Worsened,Yes
+1209,7/27/2024,19,Transgender,Glasgow,F32,Back Pain,B2,Follow-up,226.3,Improved,Yes
+1210,7/28/2024,18,Transgender,London,I10,Hypertension,E5,Follow-up,332.73,Worsened,Yes
+1211,7/29/2024,65,Male,London,E11,Hypertension,D4,Therapy,299.65,Stable,Yes
+1212,7/30/2024,29,Female,Glasgow,I10,Type 2 Diabetes,B2,Surgery,290.42,Improved,Yes
+1213,7/31/2024,86,Transgender,Birmingham,E11,Asthma,D4,Surgery,258.44,Stable,No
+1214,8/1/2024,54,Female,Bristol,J45,Back Pain,B2,Follow-up,323.74,Re-admitted,Yes
+1215,8/2/2024,49,Transgender,Manchester,E11,Type 2 Diabetes,C3,Follow-up,200.78,Improved,Yes
+1216,8/3/2024,26,Non Binary,Leeds,E11,Asthma,A1,Medication,190.55,Stable,Yes
+1217,8/4/2024,36,Non Binary,Manchester,M54,Type 2 Diabetes,A1,Surgery,305.96,Stable,No
+1218,8/5/2024,65,Non Binary,Glasgow,F32,Back Pain,D4,Therapy,128.12,Worsened,Yes
+1219,8/6/2024,20,Non Binary,London,F32,Hypertension,A1,Surgery,256.91,Improved,No
+1220,8/7/2024,37,Female,London,J45,Hypertension,D4,Medication,226.26,Improved,Yes
+1221,8/8/2024,41,Transgender,Leeds,J45,Asthma,D4,Follow-up,144.57,Improved,Yes
+1222,8/9/2024,71,Transgender,London,F32,Depression,D4,Follow-up,180.15,Stable,Yes
+1223,8/10/2024,50,Transgender,London,M54,Asthma,A1,Medication,241.83,Improved,Yes
+1224,8/11/2024,41,Male,Leeds,F32,Depression,D4,Therapy,327.55,Worsened,Yes
+1225,8/12/2024,89,Transgender,Bristol,M54,Type 2 Diabetes,A1,Follow-up,201.03,Improved,Yes
+1226,8/13/2024,53,Female,Bristol,J45,Type 2 Diabetes,D4,Diagnostic Imaging,341,Stable,Yes
+1227,8/14/2024,55,Transgender,Leeds,I10,Back Pain,E5,Follow-up,254.74,Improved,Yes
+1228,8/15/2024,42,Transgender,Glasgow,J45,Depression,D4,Diagnostic Imaging,348.28,Improved,Yes
+1229,8/16/2024,35,Transgender,London,J45,Back Pain,B2,Medication,204.66,Improved,Yes
+1230,8/17/2024,83,Non Binary,London,E11,Hypertension,D4,Medication,246.34,Improved,Yes
+1231,8/18/2024,71,Non Binary,Glasgow,E11,Depression,C3,Follow-up,277.64,Stable,Yes
+1232,8/19/2024,52,Non Binary,Bristol,E11,Asthma,D4,Surgery,236.54,Worsened,Yes
+1233,8/20/2024,78,Male,Birmingham,E11,Hypertension,B2,Diagnostic Imaging,321.48,Stable,Yes
+1234,8/21/2024,58,Male,Birmingham,M54,Hypertension,B2,Therapy,84.43,Re-admitted,Yes
+1235,8/22/2024,50,Male,Birmingham,F32,Asthma,A1,Follow-up,431.68,Worsened,Yes
+1236,8/23/2024,85,Transgender,Bristol,I10,Hypertension,E5,Therapy,314.33,Stable,Yes
+1237,8/24/2024,50,Transgender,Bristol,J45,Depression,D4,Follow-up,236.99,Worsened,Yes
+1238,8/25/2024,31,Non Binary,Glasgow,M54,Back Pain,A1,Surgery,208.58,Stable,Yes
+1239,8/26/2024,38,Non Binary,London,I10,Hypertension,E5,Surgery,185.02,Improved,Yes
+1240,8/27/2024,65,Male,Glasgow,M54,Depression,D4,Surgery,298.42,Stable,Yes
+1241,8/28/2024,37,Female,Glasgow,M54,Type 2 Diabetes,C3,Surgery,324.62,Improved,Yes
+1242,8/29/2024,25,Transgender,Bristol,J45,Depression,D4,Medication,237.81,Stable,Yes
+1243,8/30/2024,24,Female,Birmingham,F32,Back Pain,B2,Medication,333.02,Stable,Yes
+1244,8/31/2024,84,Female,Manchester,E11,Depression,B2,Diagnostic Imaging,181.96,Improved,Yes
+1245,9/1/2024,34,Transgender,London,F32,Asthma,C3,Therapy,168.71,Improved,Yes
+1246,9/2/2024,50,Transgender,Bristol,J45,Back Pain,A1,Follow-up,386,Worsened,Yes
+1247,9/3/2024,65,Transgender,Birmingham,J45,Type 2 Diabetes,E5,Follow-up,294.33,Stable,Yes
+1248,9/4/2024,76,Male,Manchester,J45,Asthma,D4,Medication,354.76,Improved,Yes
+1249,9/5/2024,39,Male,Manchester,I10,Depression,B2,Follow-up,185.95,Stable,No
+1250,9/6/2024,47,Female,Bristol,F32,Back Pain,A1,Medication,180.74,Stable,Yes
+1251,9/7/2024,55,Female,Leeds,F32,Type 2 Diabetes,C3,Diagnostic Imaging,223.1,Stable,Yes
+1252,9/8/2024,68,Female,London,M54,Asthma,B2,Therapy,188.2,Re-admitted,Yes
+1253,9/9/2024,71,Male,Manchester,M54,Type 2 Diabetes,C3,Diagnostic Imaging,302.9,Stable,Yes
+1254,9/10/2024,25,Transgender,Bristol,M54,Depression,D4,Surgery,193.67,Improved,Yes
+1255,9/11/2024,44,Female,Bristol,J45,Type 2 Diabetes,E5,Surgery,162.12,Worsened,Yes
+1256,9/12/2024,44,Transgender,Birmingham,F32,Hypertension,B2,Surgery,260.65,Worsened,Yes
+1257,9/13/2024,38,Female,Leeds,J45,Asthma,B2,Diagnostic Imaging,153.25,Improved,Yes
+1258,9/14/2024,47,Non Binary,London,I10,Type 2 Diabetes,D4,Follow-up,115.04,Improved,No
+1259,9/15/2024,45,Non Binary,Glasgow,M54,Depression,A1,Therapy,259.99,Improved,Yes
+1260,9/16/2024,81,Transgender,Birmingham,J45,Depression,E5,Surgery,118.81,Stable,Yes
+1261,9/17/2024,86,Non Binary,Manchester,J45,Type 2 Diabetes,B2,Surgery,308.15,Stable,Yes
+1262,9/18/2024,78,Transgender,Manchester,I10,Depression,E5,Surgery,145.35,Stable,Yes
+1263,9/19/2024,65,Transgender,Birmingham,E11,Back Pain,B2,Therapy,81.95,Worsened,Yes
+1264,9/20/2024,36,Male,Bristol,F32,Back Pain,E5,Surgery,227.97,Stable,Yes
+1265,9/21/2024,21,Transgender,Manchester,E11,Back Pain,C3,Therapy,260.84,Improved,Yes
+1266,9/22/2024,52,Male,Leeds,M54,Hypertension,B2,Surgery,286.86,Improved,Yes
+1267,9/23/2024,81,Female,London,J45,Type 2 Diabetes,E5,Diagnostic Imaging,262.9,Improved,Yes
+1268,9/24/2024,66,Transgender,Leeds,I10,Hypertension,A1,Diagnostic Imaging,170.55,Improved,Yes
+1269,9/25/2024,34,Transgender,Manchester,I10,Depression,C3,Therapy,303.48,Stable,Yes
+1270,9/26/2024,61,Transgender,Glasgow,F32,Hypertension,C3,Diagnostic Imaging,322.01,Worsened,No
+1271,9/27/2024,47,Transgender,London,E11,Depression,A1,Therapy,159.57,Improved,Yes
+1272,9/28/2024,63,Female,London,F32,Depression,E5,Diagnostic Imaging,236.42,Stable,Yes
+1273,9/29/2024,23,Female,Birmingham,J45,Asthma,D4,Diagnostic Imaging,229.42,Stable,Yes
+1274,9/30/2024,54,Female,Birmingham,F32,Back Pain,A1,Therapy,266.53,Improved,Yes
+1275,10/1/2024,41,Transgender,Glasgow,I10,Depression,E5,Follow-up,234.63,Improved,Yes
+1276,10/2/2024,63,Transgender,Bristol,I10,Asthma,A1,Diagnostic Imaging,244.91,Improved,Yes
+1277,10/3/2024,70,Female,London,M54,Back Pain,A1,Surgery,298.14,Improved,No
+1278,10/4/2024,77,Non Binary,Glasgow,M54,Depression,B2,Follow-up,166.46,Worsened,Yes
+1279,10/5/2024,80,Male,Birmingham,J45,Depression,E5,Therapy,305.3,Improved,Yes
+1280,10/6/2024,49,Male,Birmingham,E11,Hypertension,D4,Follow-up,335.58,Improved,Yes
+1281,10/7/2024,50,Transgender,London,F32,Hypertension,B2,Medication,372.56,Stable,Yes
+1282,10/8/2024,84,Female,Leeds,J45,Back Pain,A1,Medication,89.25,Re-admitted,Yes
+1283,10/9/2024,35,Female,Manchester,M54,Depression,A1,Diagnostic Imaging,236.28,Improved,Yes
+1284,10/10/2024,42,Male,Birmingham,F32,Type 2 Diabetes,A1,Diagnostic Imaging,102.62,Improved,Yes
+1285,10/11/2024,71,Female,Bristol,M54,Hypertension,E5,Surgery,67.37,Improved,Yes
+1286,10/12/2024,75,Male,Bristol,F32,Back Pain,E5,Follow-up,260.81,Improved,Yes
+1287,10/13/2024,84,Male,Birmingham,E11,Depression,B2,Medication,220.06,Improved,No
+1288,10/14/2024,63,Transgender,Leeds,J45,Depression,D4,Diagnostic Imaging,272.49,Stable,Yes
+1289,10/15/2024,41,Male,Leeds,F32,Type 2 Diabetes,B2,Follow-up,286.46,Improved,Yes
+1290,10/16/2024,49,Transgender,Glasgow,I10,Back Pain,C3,Diagnostic Imaging,343.59,Improved,Yes
+1291,10/17/2024,64,Non Binary,Bristol,I10,Depression,A1,Diagnostic Imaging,254.04,Worsened,Yes
+1292,10/18/2024,40,Non Binary,Glasgow,F32,Hypertension,A1,Medication,469.25,Improved,Yes
+1293,10/19/2024,83,Transgender,Bristol,F32,Type 2 Diabetes,A1,Medication,272.98,Improved,Yes
+1294,10/20/2024,44,Transgender,Manchester,F32,Back Pain,B2,Diagnostic Imaging,388.19,Improved,Yes
+1295,10/21/2024,19,Female,Manchester,I10,Type 2 Diabetes,B2,Therapy,75.04,Re-admitted,Yes
+1296,10/22/2024,34,Non Binary,London,I10,Hypertension,A1,Diagnostic Imaging,351.23,Improved,Yes
+1297,10/23/2024,50,Female,Glasgow,F32,Back Pain,B2,Diagnostic Imaging,236.44,Worsened,No
+1298,10/24/2024,26,Female,Birmingham,M54,Type 2 Diabetes,E5,Surgery,103.87,Stable,Yes
+1299,10/25/2024,60,Male,Glasgow,M54,Asthma,E5,Surgery,281.54,Improved,Yes
+1300,10/26/2024,65,Non Binary,Birmingham,E11,Hypertension,B2,Surgery,227.28,Re-admitted,Yes
+1301,10/27/2024,56,Transgender,Leeds,J45,Hypertension,A1,Therapy,293.5,Improved,Yes
+1302,10/28/2024,59,Female,Glasgow,M54,Hypertension,B2,Therapy,325.83,Improved,Yes
+1303,10/29/2024,43,Transgender,Leeds,I10,Asthma,B2,Diagnostic Imaging,138.31,Worsened,Yes
+1304,10/30/2024,67,Female,Manchester,M54,Asthma,B2,Surgery,326.12,Stable,Yes
+1305,10/31/2024,42,Transgender,Manchester,E11,Depression,C3,Therapy,250.49,Stable,Yes
+1306,11/1/2024,41,Transgender,London,E11,Type 2 Diabetes,E5,Medication,351.46,Improved,Yes
+1307,11/2/2024,30,Female,Glasgow,J45,Depression,D4,Diagnostic Imaging,234.61,Improved,Yes
+1308,11/3/2024,77,Female,Leeds,M54,Type 2 Diabetes,D4,Follow-up,214.72,Stable,Yes
+1309,11/4/2024,24,Non Binary,Birmingham,I10,Asthma,C3,Diagnostic Imaging,252.03,Improved,Yes
+1310,11/5/2024,74,Female,Manchester,I10,Asthma,B2,Follow-up,257.64,Improved,Yes
+1311,11/6/2024,53,Transgender,Manchester,F32,Depression,C3,Surgery,200.29,Improved,Yes
+1312,11/7/2024,62,Female,Birmingham,I10,Back Pain,C3,Follow-up,212.78,Improved,Yes
+1313,11/8/2024,37,Male,Leeds,J45,Depression,A1,Surgery,157.98,Worsened,Yes
+1314,11/9/2024,82,Female,Leeds,J45,Type 2 Diabetes,E5,Medication,217.4,Improved,Yes
+1315,11/10/2024,25,Female,Glasgow,I10,Depression,D4,Follow-up,300.72,Re-admitted,Yes
+1316,11/11/2024,33,Female,Glasgow,I10,Hypertension,B2,Diagnostic Imaging,239.7,Improved,Yes
+1317,11/12/2024,31,Non Binary,Bristol,F32,Type 2 Diabetes,D4,Surgery,325.68,Stable,Yes
+1318,11/13/2024,32,Female,Bristol,I10,Type 2 Diabetes,D4,Diagnostic Imaging,236.09,Improved,Yes
+1319,11/14/2024,83,Female,London,F32,Back Pain,E5,Therapy,142.64,Improved,Yes
+1320,11/15/2024,49,Female,Manchester,F32,Asthma,D4,Surgery,294.8,Improved,Yes
+1321,11/16/2024,80,Male,Glasgow,I10,Type 2 Diabetes,D4,Follow-up,199.48,Improved,Yes
+1322,11/17/2024,68,Non Binary,Leeds,E11,Asthma,C3,Surgery,232.5,Stable,Yes
+1323,11/18/2024,42,Non Binary,Birmingham,E11,Depression,E5,Diagnostic Imaging,342.82,Re-admitted,Yes
+1324,11/19/2024,75,Transgender,Leeds,F32,Hypertension,A1,Medication,162.93,Stable,No
+1325,11/20/2024,80,Male,Manchester,I10,Back Pain,B2,Surgery,262.36,Improved,Yes
+1326,11/21/2024,79,Transgender,Bristol,E11,Asthma,D4,Follow-up,246.96,Improved,Yes
+1327,11/22/2024,39,Transgender,Leeds,I10,Type 2 Diabetes,B2,Therapy,302.57,Improved,No
+1328,11/23/2024,75,Male,London,I10,Asthma,A1,Medication,314.14,Stable,No
+1329,11/24/2024,75,Female,Manchester,I10,Type 2 Diabetes,B2,Therapy,269.79,Stable,Yes
+1330,11/25/2024,66,Male,Bristol,M54,Asthma,A1,Surgery,222.97,Worsened,Yes
+1331,11/26/2024,69,Female,Birmingham,I10,Type 2 Diabetes,C3,Diagnostic Imaging,285.5,Improved,Yes
+1332,11/27/2024,59,Transgender,Bristol,M54,Depression,D4,Diagnostic Imaging,350.17,Stable,Yes
+1333,11/28/2024,87,Transgender,London,F32,Type 2 Diabetes,A1,Follow-up,247.95,Improved,Yes
+1334,11/29/2024,32,Transgender,Manchester,E11,Type 2 Diabetes,B2,Diagnostic Imaging,229.96,Stable,Yes
+1335,11/30/2024,71,Non Binary,Birmingham,E11,Hypertension,D4,Medication,279.11,Stable,Yes
+1336,12/1/2024,77,Transgender,London,E11,Type 2 Diabetes,C3,Diagnostic Imaging,252.9,Stable,No
+1337,12/2/2024,25,Female,Bristol,E11,Hypertension,D4,Follow-up,149.67,Stable,Yes
+1338,12/3/2024,70,Transgender,London,E11,Back Pain,A1,Surgery,267.95,Improved,Yes
+1339,12/4/2024,77,Female,Manchester,E11,Hypertension,C3,Surgery,148.99,Stable,Yes
+1340,12/5/2024,22,Non Binary,Glasgow,E11,Depression,B2,Diagnostic Imaging,278.09,Improved,Yes
+1341,12/6/2024,85,Female,London,F32,Hypertension,C3,Therapy,190.21,Stable,Yes
+1342,12/7/2024,23,Transgender,London,I10,Back Pain,C3,Surgery,252.77,Improved,Yes
+1343,12/8/2024,64,Transgender,Bristol,J45,Depression,E5,Diagnostic Imaging,279.29,Stable,Yes
+1344,12/9/2024,72,Male,Bristol,M54,Asthma,C3,Follow-up,434.04,Worsened,Yes
+1345,12/10/2024,57,Non Binary,Birmingham,J45,Asthma,C3,Diagnostic Imaging,305.71,Worsened,Yes
+1346,12/11/2024,69,Transgender,Bristol,J45,Hypertension,D4,Surgery,352.36,Worsened,No
+1347,12/12/2024,33,Transgender,Leeds,I10,Hypertension,B2,Follow-up,390.38,Stable,Yes
+1348,12/13/2024,30,Female,Manchester,I10,Back Pain,D4,Diagnostic Imaging,286.69,Stable,Yes
+1349,12/14/2024,47,Male,Manchester,I10,Back Pain,D4,Medication,271.43,Stable,Yes
+1350,12/15/2024,36,Male,Glasgow,E11,Type 2 Diabetes,A1,Follow-up,170,Worsened,Yes
+1351,12/16/2024,34,Non Binary,Glasgow,F32,Back Pain,D4,Medication,241.25,Improved,Yes
+1352,12/17/2024,80,Transgender,Manchester,E11,Type 2 Diabetes,E5,Therapy,195.77,Re-admitted,Yes
+1353,12/18/2024,36,Male,Glasgow,F32,Depression,E5,Follow-up,219.92,Worsened,Yes
+1354,12/19/2024,75,Non Binary,Birmingham,F32,Hypertension,A1,Medication,390.3,Stable,Yes
+1355,12/20/2024,72,Male,Bristol,J45,Depression,B2,Surgery,258.6,Improved,Yes
+1356,12/21/2024,79,Female,Manchester,J45,Back Pain,B2,Surgery,184.31,Improved,Yes
+1357,12/22/2024,40,Non Binary,Glasgow,F32,Depression,D4,Therapy,353.09,Worsened,Yes
+1358,12/23/2024,26,Transgender,Manchester,F32,Depression,D4,Follow-up,321.65,Improved,Yes
+1359,12/24/2024,29,Female,Leeds,E11,Depression,D4,Follow-up,325.57,Worsened,Yes
+1360,12/25/2024,18,Transgender,London,E11,Back Pain,B2,Follow-up,99.54,Improved,Yes
+1361,12/26/2024,75,Non Binary,Bristol,J45,Depression,C3,Therapy,396.15,Improved,Yes
+1362,12/27/2024,18,Non Binary,Manchester,I10,Type 2 Diabetes,E5,Follow-up,208.11,Worsened,Yes
+1363,12/28/2024,51,Transgender,London,F32,Back Pain,C3,Surgery,308.35,Stable,Yes
+1364,12/29/2024,65,Non Binary,Glasgow,E11,Depression,C3,Medication,439.28,Stable,Yes
+1365,12/30/2024,18,Non Binary,London,J45,Back Pain,B2,Surgery,411.65,Stable,Yes
+1366,12/31/2024,33,Male,Bristol,E11,Asthma,C3,Surgery,176.68,Improved,Yes
+1367,1/1/2025,78,Female,Manchester,F32,Type 2 Diabetes,A1,Medication,141.66,Stable,Yes
+1368,1/2/2025,81,Male,Leeds,F32,Depression,D4,Surgery,357.28,Improved,Yes
+1369,1/3/2025,80,Non Binary,Glasgow,M54,Asthma,A1,Therapy,260.65,Worsened,Yes
+1370,1/4/2025,86,Male,Manchester,I10,Asthma,E5,Medication,212.43,Worsened,Yes
+1371,1/5/2025,39,Female,Bristol,M54,Back Pain,D4,Surgery,296.59,Improved,Yes
+1372,1/6/2025,84,Non Binary,Glasgow,J45,Asthma,C3,Diagnostic Imaging,237.78,Stable,No
+1373,1/7/2025,43,Female,Birmingham,E11,Type 2 Diabetes,E5,Surgery,302.6,Stable,Yes
+1374,1/8/2025,33,Non Binary,London,J45,Type 2 Diabetes,D4,Therapy,255.02,Improved,No
+1375,1/9/2025,68,Male,Bristol,F32,Hypertension,C3,Follow-up,304.18,Re-admitted,No
+1376,1/10/2025,74,Female,Birmingham,M54,Type 2 Diabetes,A1,Surgery,182.91,Improved,Yes
+1377,1/11/2025,46,Non Binary,Manchester,M54,Asthma,D4,Follow-up,356.83,Improved,Yes
+1378,1/12/2025,86,Male,Leeds,M54,Type 2 Diabetes,C3,Diagnostic Imaging,302.32,Stable,No
+1379,1/13/2025,64,Transgender,Glasgow,J45,Back Pain,A1,Surgery,298.47,Stable,Yes
+1380,1/14/2025,79,Female,London,F32,Hypertension,E5,Medication,166.17,Stable,Yes
+1381,1/15/2025,86,Non Binary,Glasgow,E11,Asthma,E5,Follow-up,377.47,Stable,Yes
+1382,1/16/2025,33,Male,Manchester,E11,Hypertension,E5,Diagnostic Imaging,248.97,Stable,Yes
+1383,1/17/2025,65,Female,Glasgow,J45,Asthma,E5,Medication,304.6,Stable,Yes
+1384,1/18/2025,56,Transgender,London,M54,Back Pain,B2,Medication,225.79,Improved,Yes
+1385,1/19/2025,50,Female,Manchester,I10,Hypertension,D4,Medication,269.57,Improved,Yes
+1386,1/20/2025,40,Male,Glasgow,J45,Depression,D4,Medication,272.28,Improved,Yes
+1387,1/21/2025,27,Female,Leeds,J45,Asthma,B2,Surgery,38.51,Improved,No
+1388,1/22/2025,86,Transgender,Bristol,F32,Depression,C3,Surgery,293.68,Stable,Yes
+1389,1/23/2025,51,Non Binary,Manchester,E11,Hypertension,C3,Surgery,397.4,Improved,Yes
+1390,1/24/2025,69,Female,Bristol,J45,Depression,E5,Diagnostic Imaging,290.48,Improved,Yes
+1391,1/25/2025,27,Male,Manchester,J45,Depression,A1,Diagnostic Imaging,178.17,Improved,Yes
+1392,1/26/2025,36,Transgender,Leeds,M54,Hypertension,C3,Diagnostic Imaging,298.75,Worsened,Yes
+1393,1/27/2025,75,Non Binary,Bristol,M54,Back Pain,A1,Therapy,329.46,Worsened,No
+1394,1/28/2025,18,Non Binary,Birmingham,I10,Depression,D4,Diagnostic Imaging,288.43,Stable,Yes
+1395,1/29/2025,86,Female,London,F32,Depression,A1,Surgery,244.44,Worsened,Yes
+1396,1/30/2025,21,Transgender,Birmingham,I10,Back Pain,D4,Surgery,231.84,Stable,Yes
+1397,1/31/2025,33,Male,Glasgow,M54,Depression,B2,Therapy,231.53,Stable,Yes
+1398,2/1/2025,41,Non Binary,Leeds,E11,Depression,B2,Therapy,302.33,Improved,No
+1399,2/2/2025,19,Female,Birmingham,M54,Depression,E5,Diagnostic Imaging,144.47,Stable,Yes
+1400,2/3/2025,49,Transgender,Manchester,F32,Type 2 Diabetes,C3,Follow-up,222.11,Stable,Yes
+1401,2/4/2025,41,Male,Glasgow,M54,Back Pain,E5,Therapy,369.67,Stable,Yes
+1402,2/5/2025,29,Transgender,Glasgow,F32,Depression,D4,Medication,372.56,Stable,No
+1403,2/6/2025,67,Male,Birmingham,F32,Back Pain,E5,Surgery,139.14,Stable,Yes
+1404,2/7/2025,52,Non Binary,Birmingham,F32,Asthma,A1,Medication,165.14,Stable,Yes
+1405,2/8/2025,50,Transgender,Leeds,F32,Asthma,D4,Surgery,229.7,Worsened,Yes
+1406,2/9/2025,50,Non Binary,London,F32,Depression,B2,Surgery,316.94,Improved,No
+1407,2/10/2025,78,Male,Birmingham,E11,Back Pain,C3,Therapy,112.94,Stable,Yes
+1408,2/11/2025,68,Non Binary,Birmingham,I10,Back Pain,D4,Therapy,245.89,Improved,Yes
+1409,2/12/2025,60,Female,Bristol,J45,Back Pain,D4,Medication,214.44,Stable,Yes
+1410,2/13/2025,29,Non Binary,Manchester,I10,Type 2 Diabetes,A1,Surgery,349.45,Stable,Yes
+1411,2/14/2025,84,Non Binary,Bristol,F32,Asthma,C3,Medication,124.23,Improved,Yes
+1412,2/15/2025,82,Non Binary,Bristol,E11,Back Pain,B2,Follow-up,256.94,Stable,Yes
+1413,2/16/2025,50,Transgender,Glasgow,M54,Back Pain,D4,Medication,220.48,Improved,No
+1414,2/17/2025,57,Non Binary,London,E11,Type 2 Diabetes,D4,Diagnostic Imaging,360.23,Stable,Yes
+1415,2/18/2025,60,Male,Manchester,F32,Type 2 Diabetes,A1,Medication,294.82,Improved,No
+1416,2/19/2025,61,Non Binary,Leeds,E11,Back Pain,E5,Diagnostic Imaging,206.06,Stable,Yes
+1417,2/20/2025,46,Female,Leeds,E11,Hypertension,B2,Diagnostic Imaging,314,Improved,Yes
+1418,2/21/2025,30,Female,Birmingham,F32,Back Pain,C3,Diagnostic Imaging,220.84,Stable,Yes
+1419,2/22/2025,29,Female,Birmingham,E11,Back Pain,D4,Follow-up,324.95,Improved,Yes
+1420,2/23/2025,63,Female,Leeds,J45,Type 2 Diabetes,D4,Medication,232.22,Worsened,No
+1421,2/24/2025,19,Male,Birmingham,J45,Type 2 Diabetes,B2,Medication,329.1,Worsened,Yes
+1422,2/25/2025,52,Female,London,E11,Back Pain,E5,Follow-up,282.71,Re-admitted,Yes
+1423,2/26/2025,25,Female,Bristol,M54,Back Pain,D4,Surgery,494.54,Stable,Yes
+1424,2/27/2025,43,Non Binary,Birmingham,F32,Back Pain,B2,Therapy,246.03,Stable,Yes
+1425,2/28/2025,51,Non Binary,Glasgow,J45,Type 2 Diabetes,A1,Medication,278.71,Improved,Yes
+1426,3/1/2025,24,Transgender,Birmingham,M54,Back Pain,E5,Therapy,214.04,Improved,Yes
+1427,3/2/2025,85,Female,Manchester,E11,Back Pain,C3,Follow-up,250.2,Improved,No
+1428,3/3/2025,75,Transgender,London,M54,Depression,D4,Surgery,47.36,Stable,Yes
+1429,3/4/2025,46,Transgender,Manchester,I10,Hypertension,B2,Surgery,284.92,Worsened,Yes
+1430,3/5/2025,53,Transgender,Manchester,J45,Asthma,A1,Surgery,350.72,Improved,Yes
+1431,3/6/2025,38,Transgender,Glasgow,E11,Hypertension,C3,Follow-up,279.75,Worsened,No
+1432,3/7/2025,53,Female,London,F32,Depression,B2,Diagnostic Imaging,151.46,Stable,Yes
+1433,3/8/2025,27,Non Binary,London,E11,Asthma,B2,Diagnostic Imaging,189.87,Stable,Yes
+1434,3/9/2025,41,Transgender,London,F32,Back Pain,C3,Therapy,67.74,Improved,Yes
+1435,3/10/2025,81,Female,London,E11,Depression,A1,Diagnostic Imaging,323.42,Improved,Yes
+1436,3/11/2025,66,Female,London,M54,Back Pain,A1,Diagnostic Imaging,174.51,Stable,Yes
+1437,3/12/2025,53,Male,Glasgow,M54,Type 2 Diabetes,E5,Surgery,247.85,Stable,No
+1438,3/13/2025,41,Female,Birmingham,M54,Depression,D4,Surgery,238.47,Improved,Yes
+1439,3/14/2025,40,Female,Manchester,I10,Type 2 Diabetes,C3,Therapy,361.58,Stable,Yes
+1440,3/15/2025,79,Female,London,F32,Depression,C3,Medication,256.4,Worsened,Yes
+1441,3/16/2025,54,Female,Birmingham,M54,Depression,C3,Therapy,310.67,Worsened,Yes
+1442,3/17/2025,29,Non Binary,Birmingham,I10,Type 2 Diabetes,A1,Therapy,290.98,Worsened,Yes
+1443,3/18/2025,72,Male,Manchester,F32,Asthma,D4,Follow-up,351.96,Improved,Yes
+1444,3/19/2025,30,Female,Glasgow,E11,Hypertension,E5,Follow-up,232.07,Improved,Yes
+1445,3/20/2025,40,Female,Leeds,I10,Back Pain,B2,Therapy,390.22,Stable,Yes
+1446,3/21/2025,47,Female,Leeds,J45,Depression,B2,Therapy,101.08,Improved,Yes
+1447,3/22/2025,34,Female,Birmingham,I10,Back Pain,C3,Therapy,314.31,Improved,Yes
+1448,3/23/2025,79,Transgender,Bristol,I10,Type 2 Diabetes,D4,Diagnostic Imaging,185,Improved,No
+1449,3/24/2025,30,Male,Bristol,F32,Back Pain,A1,Follow-up,213.04,Improved,Yes
+1450,3/25/2025,76,Male,Manchester,E11,Type 2 Diabetes,D4,Therapy,292.71,Improved,Yes
+1451,3/26/2025,36,Female,Leeds,J45,Back Pain,D4,Surgery,292.11,Improved,Yes
+1452,3/27/2025,66,Female,Birmingham,M54,Hypertension,A1,Surgery,295.48,Improved,Yes
+1453,3/28/2025,29,Transgender,Glasgow,M54,Hypertension,C3,Diagnostic Imaging,146.04,Improved,Yes
+1454,3/29/2025,78,Non Binary,Leeds,I10,Hypertension,D4,Diagnostic Imaging,358.68,Stable,Yes
+1455,3/30/2025,36,Male,Birmingham,F32,Hypertension,B2,Medication,182.45,Stable,Yes
+1456,3/31/2025,26,Transgender,Birmingham,F32,Hypertension,A1,Medication,192.45,Stable,Yes
+1457,4/1/2025,88,Female,London,M54,Hypertension,E5,Medication,297.84,Improved,Yes
+1458,4/2/2025,45,Transgender,Glasgow,J45,Type 2 Diabetes,C3,Diagnostic Imaging,228.5,Improved,Yes
+1459,4/3/2025,69,Male,London,E11,Depression,A1,Diagnostic Imaging,273.12,Stable,Yes
+1460,4/4/2025,33,Transgender,Manchester,J45,Back Pain,E5,Diagnostic Imaging,88.25,Stable,Yes
+1461,4/5/2025,86,Non Binary,London,E11,Hypertension,E5,Surgery,271.32,Stable,Yes
+1462,4/6/2025,29,Male,London,M54,Type 2 Diabetes,D4,Diagnostic Imaging,266.34,Improved,Yes
+1463,4/7/2025,42,Male,Leeds,E11,Type 2 Diabetes,D4,Surgery,211.76,Worsened,Yes
+1464,4/8/2025,69,Non Binary,Bristol,F32,Type 2 Diabetes,D4,Medication,94.44,Improved,Yes
+1465,4/9/2025,70,Male,Birmingham,I10,Depression,A1,Medication,234.04,Improved,Yes
+1466,4/10/2025,40,Female,Glasgow,I10,Back Pain,A1,Medication,247.2,Stable,No
+1467,4/11/2025,33,Non Binary,London,M54,Depression,C3,Therapy,222.46,Stable,Yes
+1468,4/12/2025,74,Female,Glasgow,F32,Asthma,D4,Therapy,112.29,Improved,Yes
+1469,4/13/2025,56,Non Binary,Bristol,J45,Type 2 Diabetes,E5,Follow-up,369.61,Improved,Yes
+1470,4/14/2025,70,Male,Bristol,F32,Asthma,B2,Follow-up,202.09,Stable,Yes
+1471,4/15/2025,59,Non Binary,London,I10,Hypertension,C3,Follow-up,233.33,Improved,No
+1472,4/16/2025,75,Female,Manchester,I10,Hypertension,A1,Therapy,69.29,Improved,Yes
+1473,4/17/2025,56,Non Binary,London,F32,Depression,C3,Therapy,369.61,Improved,Yes
+1474,4/18/2025,31,Female,Leeds,F32,Back Pain,C3,Follow-up,215.01,Worsened,Yes
+1475,4/19/2025,22,Transgender,Birmingham,I10,Asthma,C3,Follow-up,257.38,Improved,Yes
+1476,4/20/2025,52,Female,Manchester,J45,Back Pain,C3,Diagnostic Imaging,334.06,Re-admitted,Yes
+1477,4/21/2025,35,Non Binary,London,M54,Depression,B2,Follow-up,199.28,Stable,Yes
+1478,4/22/2025,26,Female,Glasgow,M54,Hypertension,D4,Diagnostic Imaging,322.24,Re-admitted,No
+1479,4/23/2025,75,Female,Manchester,F32,Back Pain,E5,Surgery,95.4,Worsened,Yes
+1480,4/24/2025,34,Non Binary,Manchester,M54,Back Pain,C3,Therapy,291.32,Improved,Yes
+1481,4/25/2025,24,Female,London,I10,Hypertension,C3,Follow-up,367.92,Improved,No
+1482,4/26/2025,63,Non Binary,Manchester,I10,Asthma,C3,Therapy,206.47,Improved,Yes
+1483,4/27/2025,30,Male,Glasgow,F32,Hypertension,D4,Therapy,333.92,Improved,No
+1484,4/28/2025,57,Non Binary,Bristol,F32,Back Pain,A1,Therapy,387.54,Stable,No
+1485,4/29/2025,59,Transgender,Manchester,F32,Asthma,A1,Surgery,230.89,Improved,Yes
+1486,4/30/2025,26,Female,Bristol,J45,Asthma,B2,Medication,224.69,Improved,Yes
+1487,5/1/2025,67,Non Binary,Glasgow,M54,Hypertension,A1,Follow-up,182.63,Improved,Yes
+1488,5/2/2025,44,Non Binary,London,F32,Back Pain,C3,Medication,211.77,Worsened,No
+1489,5/3/2025,83,Female,Birmingham,E11,Depression,C3,Medication,188.85,Improved,Yes
+1490,5/4/2025,22,Non Binary,Manchester,E11,Back Pain,C3,Medication,182.57,Improved,Yes
+1491,5/5/2025,46,Transgender,Birmingham,I10,Type 2 Diabetes,B2,Therapy,339.91,Improved,No
+1492,5/6/2025,54,Male,Glasgow,M54,Depression,C3,Diagnostic Imaging,190.76,Worsened,No
+1493,5/7/2025,55,Transgender,Manchester,F32,Asthma,A1,Therapy,269.39,Stable,Yes
+1494,5/8/2025,25,Transgender,Bristol,E11,Depression,D4,Therapy,252.87,Improved,Yes
+1495,5/9/2025,82,Transgender,Leeds,M54,Asthma,D4,Medication,362.36,Improved,No
+1496,5/10/2025,34,Transgender,Birmingham,I10,Asthma,E5,Therapy,212.26,Improved,Yes
+1497,5/11/2025,88,Non Binary,Manchester,J45,Depression,A1,Medication,278.59,Improved,No
+1498,5/12/2025,62,Female,Birmingham,M54,Asthma,C3,Diagnostic Imaging,309.33,Worsened,Yes
+1499,5/13/2025,21,Transgender,Manchester,M54,Asthma,D4,Follow-up,361.73,Stable,Yes
+1500,5/14/2025,53,Female,London,J45,Type 2 Diabetes,A1,Medication,211.17,Improved,Yes
